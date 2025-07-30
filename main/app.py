@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
-from encrypt import pseudonymize_json
-from decrypt import decrypt_json_data
+from main.encrypt import pseudonymize_json
+from main.decrypt import decrypt_json_data
 import json
 import os
 import requests
