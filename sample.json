@@ -1,0 +1,63 @@
+{
+  "company": {
+      "name": "Tech Innovators Inc.",
+      "founded": "2010-08-15",
+      "address": "789, Mountain View, CA",
+      "employees": [
+          {
+              "name": "Alice Johnson",
+              "email": "alice.johnson@techinnovators.com",
+              "phone": "+1-650-555-0199",
+              "role": "Software Engineer",
+              "project_code": "PRJ-001-AJ",
+              "ssn": "321-54-9876"
+          },
+          {
+              "name": "Bob Williams",
+              "email": "bob.williams@techinnovators.com",
+              "phone": "+1-650-555-0134",
+              "role": "Data Scientist",
+              "project_code": "PRJ-002-BW",
+              "ssn": "876-54-3210"
+          }
+      ]
+  },
+  "clients": [
+      {
+          "client_id": "CLNT-001",
+          "name": "Acme Corp.",
+          "contact_person": "Jane Doe",
+          "contact_email": "jane.doe@acmecorp.com",
+          "contact_phone": "+1-415-555-1212", 
+          "contract_signed": "2023-06-01",
+          "contract_value": "500000",
+          "address": "123, San Francisco, CA"
+      },
+      {
+          "client_id": "CLNT-002",
+          "name": "Globex Corporation",
+          "contact_person": "Mark Spencer",
+          "contact_email": "mark.spencer@globex.com",
+          "contact_phone": "+1-312-555-9876",
+          "contract_signed": "2022-11-20",
+          "contract_value": "750000",
+          "address": "456, Chicago, IL"
+      }
+  ],
+  "projects": [
+      {
+          "project_id": "PRJ-001",
+          "name": "AI Research",
+          "start_date": "2021-05-01",
+          "end_date": "2022-05-01",
+          "budget": "250000"
+      },
+      {
+          "project_id": "PRJ-002",
+          "name": "Cloud Infrastructure",
+          "start_date": "2020-01-15",
+          "end_date": "2021-01-15",
+          "budget": "300000"
+      }
+  ]
+}

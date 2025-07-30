@@ -1,0 +1,32 @@
+
+Installation:::
+
+install opa in bash using:
+
+curl -L -o opa https://openpolicyagent.org/downloads/latest/opa_linux_amd64_static
+
+then run this:
+
+chmod +x opa.exe
+
+
+
+Running:::
+
+first of all you need to generate the encrypted key(gen.py) : you will get a key and then paste that key in app.py where it asked
+
+
+keep all the files in one directory
+
+
+1) open bash in a new terminal start the opa server using:-
+
+./opa.exe run --server --addr localhost:8181 policy.rego
+
+2) open a new powershell terminal and run
+
+python app.py
+
+3) open a new bash terminal and test with the ip address:
+
+curl -X POST http://127.0.0.1:5000/pseudonymize \-H "X-Forwarded-For: 10.0.8.15" \-F "file=@C:\Users\satwi\OneDrive\Documents\OPA\sample.json"
